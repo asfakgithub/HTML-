@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        *{
+            margin: 0;  padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        nav{
+            height: 150px;
+            background-color: #81ecec;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .logo{
+            width: 40%;
+            color: #0984e3;
+            padding-left: 55px;
+            {% comment %} background-color: red; {% endcomment %}
+        }
+        .logo h1{
+            text-transform: capitalize;
+            text-shadow: 2px 2px 2px #dffe6e9;
+        }
+        .menu{
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            {% comment %} align-items: center; {% endcomment %}
+        }
+        .menu a{
+            text-decoration: none;
+            color: #2d3436;
+            text-transform: uppercase;
+            font-weight: bold;
+            position: relative;
+        }
+        .menu a: before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 100px;
+            height: 2px;
+            background-color: #000;
+            transition: all 0.5s liner;
+        }
+        
+    </style>
+</head>
+<body>
+
+<nav>
+   <div class="logo">
+    <h1> Asfak </h1>
+   </div>
+
+   <div class="menu">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Gallery</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+   </div>
+   
+</nav>
+
+</body>
+</html>

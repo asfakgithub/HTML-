@@ -1,0 +1,97 @@
+.Header{
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr;
+    border: 1px solid black;
+    width: 99.85%;
+    height: 80px; 
+}
+
+.Header .a {
+    align-content: center;
+    /* text-align: center; */
+    background-color: green;
+   float: left;
+}
+.Header .b {
+    background-color: blue;
+    text-align: center;
+}
+.Header .c {
+    background-color: brown;
+    text-align: center;
+}
+.Sidebar{
+    border: 1px solid black;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+.container{
+    display:grid;
+    /* grid-template-columns: repeat(5 , 2fr); */
+    border: 1px solid black;
+    width: 79.69%;
+    height: 500px;
+    float: left;
+    text-align: center;
+}
+.container .cell1 {
+    display: grid;
+    grid-template-columns: 5px 10px 15px;
+    border: 1px solid black;
+}
+.container .cell2 {
+    display: grid;
+    grid-template-columns: 5px 10px 15px;
+    border: 1px solid black;
+}
+
+.container .cell3 {
+    display: grid;
+    grid-template-columns: 15px;
+    border: 1px solid black;
+}
+.container .cell4 {
+    display: grid;
+    grid-template-columns: 10px ;
+    border: 1px solid black;
+}
+.container .cell5 {
+    display: grid;
+    grid-template-columns: 5px;
+    border: 1px solid black;
+}
+
+#content1{
+    border: 1px solid black;
+    width: 90%;
+    height: 80px; 
+    margin-top: 20px;
+    margin-left: 7.5%;
+
+}
+
+
+#content2{
+    border: 1px solid black;
+    width: 40%;
+    height: 350px; 
+    margin-left: 7.5%;
+    margin-top: 10px;
+    float: left;
+}
+#content3{
+    border: 1px solid black;
+    width: 40%;
+    height: 350px;
+    margin-left: 57.5%;
+    margin-top: 10px;
+}
+
+.Footer{
+    border: 1px solid black;
+    width: 99.85%;
+    height: 80px; 
+    margin-top: 500px;
+}
