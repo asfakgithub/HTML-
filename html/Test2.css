@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Card{
+    width: 20%;
+    box-shadow: 2px 2px 20px black;
+    margin: 2%;
+    border-radius: 5px;
+}
+#Image img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#Title{
+    text-align: center;
+    padding: 10px;
+}
+p{
+    font-weight: 500;
+}
+#Des{
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(182, 253, 253);
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+
+}

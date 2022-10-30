@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+}
+
+.container {
+    width: 400px;
+    background-color: white;
+    margin: 150px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgba(58, 55, 55, 0.2);
+}
+
+@keyframes load {
+    from {
+        width: 0%;
+    }
+}
+@-webkit-keyframes load{
+    from {
+        width: 0%;
+    }
+}
+@-moz-keyframes load{
+    from {
+        width: 0%;
+    }
+}
+@-o-keyframes load{
+    from {
+        width: 0%;
+    }
+}
+
+h1 {
+    text-align:  center;
+    margin-bottom: 10px;
+}
+.box {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.box li h5 {
+    margin-bottom: 10px;
+}
+.bar {
+    height: 18px;
+    background-color: #eeee;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bar::before{
+    content: "";
+    background-color: #ae00ff;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    animation: load 3s 0s;
+    -webkit-animation: load 3s 0s;
+    -moz-animation: load 3s 0s;
+    -o-animation: load 3s 0s;
+}
+.bar.bar1::before {
+    width: calc(95% - 10px)
+}
+.bar.bar2::before {
+    width: calc(85% - 10px)
+}
+.bar.bar3::before {
+    width: calc(70% - 10px)
+}
+.bar.bar4::before {
+    width: calc(90% - 10px)
+}
